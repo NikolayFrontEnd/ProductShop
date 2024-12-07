@@ -1,0 +1,5 @@
+npm create vite@latest app --template react-ts
+redux 
+//store
+npm install @reduxjs/toolkit
+npm install react-redux
