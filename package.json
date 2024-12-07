@@ -1,4 +1,16 @@
 {
+    "name": "product-shop",
+    "version": "1.0.0",
+    "private": true,
+    "homepage": "https://NikolayFrontEnd.github.io/ProductShop",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d dist",
+      "serve": "vite preview"
+    },
+
   "dependencies": {
     "react-router-dom": "^7.0.2"
   }
