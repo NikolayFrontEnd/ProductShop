@@ -87,4 +87,4 @@ const productsSlice = createSlice({
 
 // Экспорт действий и редьюсера слайса
 export const { removeProduct, addProduct } = productsSlice.actions;
-export default productsSlice.reducer;
+export default productsSlice.reducer
