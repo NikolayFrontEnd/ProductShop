@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useAppDispatch, useAppSelector } from '../state/hook';
-import { fetchProducts, Product } from '../state/productSlice';
+import { fetchProducts } from '../state/productSlice';
 import styles from './AllProduct.module.css'; // Путь к вашим стилям
 
 const ProductItem: React.FC = () => {
@@ -51,7 +51,7 @@ const ProductItem: React.FC = () => {
  
     </div>
 
-<Link to = "/">     <button className = {styles.btn2}>
+<Link to = "/ProductShop">     <button className = {styles.btn2}>
 ВЕРНУТЬСЯ! 
 </button> </Link>
 </div>

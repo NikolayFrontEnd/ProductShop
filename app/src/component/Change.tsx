@@ -7,7 +7,7 @@ const Change: React.FC =  () =>{
 
     <h1>
 Страница пока не работает! Вы не можете изменять карточки с товарами!
- <Link to = "/">     <button className = {styles.btn2}>
+ <Link to = "/ProductShop">     <button className = {styles.btn2}>
    ВЕРНУТЬСЯ! 
 </button> </Link>
     </h1>

@@ -59,7 +59,7 @@ const CreateProduct: React.FC = () => {
     setImage('');
 
     // Перенаправление на страницу со списком продуктов
-    navigate('/');
+    navigate('/ProductShop');
   };
 
   return (

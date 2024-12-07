@@ -10,7 +10,7 @@ function App() {
     <div>
 <BrowserRouter>  
 <Routes>     
-    <Route path ="/" element = { <AllProducts/>   } />
+    <Route path ="/ProductShop" element = { <AllProducts/>   } />
     <Route path="/product/:id" element = {      <ProductItem/>  } />
     <Route path = "/favourite" element = {<Favourite/>}/>
     <Route path = "/refine" element = {<Change/>} />

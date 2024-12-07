@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import styles from './AllProduct.module.css'; // Путь к вашим стилям
 import { useAppDispatch, useAppSelector } from '../state/hook';
 import { Link } from 'react-router-dom';

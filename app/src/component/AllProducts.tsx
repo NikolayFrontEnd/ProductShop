@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import styles from './AllProduct.module.css';
 import { useAppDispatch, useAppSelector } from '../state/hook';
 import { fetchProducts, Product, removeProduct } from '../state/productSlice';
